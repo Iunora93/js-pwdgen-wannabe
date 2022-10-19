@@ -20,6 +20,7 @@ const favoriteColor = prompt("Inserisci il tuo colore preferito");
 console.log(favoriteColor);
 
 /* Scrivi sulla pagina nomecognomecolorepreferito76 */
-const totalInformation = ``;
+const totalInformation = firstName + lastName + favoriteColor + 76;
 console.log(totalInformation);
 
+document.querySelector("h1").innerHTML = totalInformation;
